@@ -33,6 +33,7 @@ dependencies:
   - tqdm=4.56 # a progress bar library  
   - statsmodels
   - h5py==2.10.0
+  - missingno
   - transformers=4.3 # Natural Language Processing lib for TF or PyTorch
   - wheel # built-package format for pip
   - widgetsnbextension=3.5 # interactive HTML widgets for Jupyter notebooks
