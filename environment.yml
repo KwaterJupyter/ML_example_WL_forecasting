@@ -26,7 +26,6 @@ dependencies:
   - pyopengl=3.1 # used only in chapter 18 to render environments
   - python=3.7 # Python! Not using latest version as some libs lack support
   - python-graphviz # used only in chapter 6 for dot files
- #- pyvirtualdisplay=1.3 # used only in chapter 18 if on headless server
   - requests=2.25 # used only in chapter 19 for REST API queries
   - scikit-learn=0.24 # machine learning library
   - scipy=1.6 # scientific/technical computing library
@@ -34,6 +33,9 @@ dependencies:
   - statsmodels
   - h5py==2.10.0
   - missingno
+  - tensorflow-gpu
+  - cudnn
+  - cudatoolkit
   - transformers=4.3 # Natural Language Processing lib for TF or PyTorch
   - wheel # built-package format for pip
   - widgetsnbextension=3.5 # interactive HTML widgets for Jupyter notebooks
