@@ -13,4 +13,3 @@ xorg-dev
 xvfb
 zip
 zlib1g-dev
-nvidia-361-dev
